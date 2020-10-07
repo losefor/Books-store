@@ -7,7 +7,10 @@ export default function SearchBar() {
     return (
         <div className={styles.searchCont}>
             <input placeholder='Search...'/>
-            <button children={<FontAwesomeIcon icon={faSearch}/>} />
+            <button>
+            <FontAwesomeIcon  icon={faSearch}/>
+<span>search</span>
+            </button>
         </div>
     )
 }

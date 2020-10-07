@@ -4,7 +4,7 @@
 }
 
 .searchCont input {
- width: 100%;
+  width: 100%;
   border: none;
   font-size: 18px;
   border-radius: 40px;
@@ -25,18 +25,32 @@
   font-size: 20px;
   border-radius: 40px;
   outline: none;
-  transition: .3s;
+  /* transition: 0.3s; */
   position: absolute;
   right: -4px;
   top: 1px;
-  width: 40px;
+  /* width: 40px; */
   height: 40px;
 }
 
 .searchCont button:hover {
   background-color: rgb(27, 27, 27);
+  padding: 0 5px;
 }
 
-@media(max-width:768px){
+.searchCont button:hover span {
+  display: inline-block;
+}
 
+.searchCont button span {
+ padding: 0 5px;
+ display: none;
+}
+
+.searchCont button svg {
+  font-size: 17px;
+  /* width: 0px; */
+}
+
+@media (max-width: 768px) {
 }
