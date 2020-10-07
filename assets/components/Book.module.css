@@ -1,0 +1,18 @@
+.image{
+    height: 200px;
+    margin: 3px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.151);
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width:768px){
+    .image{
+        height: 150px;
+    }
+    
+}

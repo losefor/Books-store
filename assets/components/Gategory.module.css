@@ -1,0 +1,9 @@
+.cont{
+    padding: 5px 0;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.144) 0 0 30px 0px;
+}
