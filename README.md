@@ -1,8 +1,8 @@
 # Book store with NEXT js 
 ## internal screenshots from the website
-![alt text](https://github.com/losefor/Books-store/blob/master/cover.jpg?raw=true)
-![alt text](https://github.com/losefor/Books-store/blob/master/cover1.jpg?raw=true)
-![alt text](https://github.com/losefor/Books-store/blob/master/cover2.jpg?raw=true)
+![alt text](https://github.com/losefor/Books-store/blob/master/cover.png?raw=true)
+![alt text](https://github.com/losefor/Books-store/blob/master/cover1.png?raw=true)
+![alt text](https://github.com/losefor/Books-store/blob/master/cover2.png?raw=true)
 ## what you can find in this project...?
 - self explanitory code with best practices for documentation 
 - Modern design with the modern trends 
