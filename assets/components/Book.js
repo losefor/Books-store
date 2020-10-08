@@ -1,12 +1,10 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from './Book.module.css'
-import View from './View'
-export default function Book({src}) {
-    return (
-        
 
-            <img className={styles.image} src={src}/>
-        
+export default function Book({src , href , onClick}) {
+    return (
+            <img onClick={onClick} className={styles.image} src={src}/>
     )
 }
 

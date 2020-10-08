@@ -13,6 +13,7 @@ export default function MarkdownComponent({ source }) {
       source={source}
       unwrapDisallowed
       renderers={{
+        text:Paragraph,
         inlineCode: InlineCode,
         strong: Strong,
         thematicBreak: ThematicBreak,
