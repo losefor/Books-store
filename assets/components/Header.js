@@ -20,7 +20,7 @@ export default function Header({ backgroundColor = "#00b0ff", color = "white" })
           flexDirection="column"
           justifyContent="space-between"
         >
-          <View mh={20}>
+          <View mv={20}>
             <Text align="left" type="header1">
               Learn , Improve and create
             </Text>

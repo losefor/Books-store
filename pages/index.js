@@ -5,6 +5,7 @@ import Router from "next/router";
 import Container from "../assets/components/Container";
 import Header from "../assets/components/Header";
 import Gategory from "../assets/components/Gategory";
+import GategoryCard from "../assets/components/GategoryCard";
 import Book from "../assets/components/Book";
 import View from "../assets/components/View";
 
@@ -36,13 +37,24 @@ export default function index() {
     <div>
       <Header />
       <Container>
-        <Gategory title='Self Imrovement' />
+        <Gategory title="Self Imrovement" />
         <View display="flex" justifyContent="center" flexWrap="wrap">
           {images.map((data) => (
-              <Book 
-              onClick={()=>Router.push(`/item/${data.id}`)}
-              src={data.picture} />
+            <Book
+              onClick={() => Router.push(`/item/${data.id}`)}
+              src={data.picture}
+            />
           ))}
+        </View>
+        <View 
+        display="flex"
+         justifyContent="center"
+         flexWrap='wrap'
+         mv={20}>
+          
+          <GategoryCard m={3} img='/cover.jpg' title="Bussines"/>
+          <GategoryCard m={3} img='/cover2.jpg' title="Finanace" color='rgba(255, 28, 109, 0.95)'/>
+          <GategoryCard m={3} img='/cover4.jpg' title="Self improvement" color='rgba(255, 212, 57, 0.95)'/>
         </View>
       </Container>
     </div>

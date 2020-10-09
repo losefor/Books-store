@@ -23,8 +23,8 @@ export default function View({
     return (
     <div
       style={{
-        margin: `${mh ? mh : 0}px ${mv ? mv : 0}px `,
-        padding: `${ph ? ph : 0}px ${pv ? pv : 0}px `,
+        margin: `${mv ? mv : 0}px ${mv ? mv : 0}px `,
+        padding: `${pv ? pv : 0}px ${ph ? ph : 0}px `,
         display,
         justifyContent,
         alignItems,

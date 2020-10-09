@@ -1,0 +1,38 @@
+.cont{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(28, 255, 187, 0.95) 0 0 20px 0 ;
+    /* border: none; */
+}
+
+.cont span{
+    font-size: 30px;
+    font-family: 'Tajawal' , sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+
+
+}
+.cont img{
+position: absolute;
+width: 100%;
+top: -20px;
+ }
+
+.cont div{
+    background-color: rgba(28, 255, 187, 0.95);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }
